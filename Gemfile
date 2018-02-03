@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.1'
+gem 'pg', '~> 0.15'
 gem 'sass-rails', '~> 5.0'
 gem 'simple_form', '~> 3.1.0'
 gem 'bootstrap-sass', '~> 3.3.4.1'
@@ -15,7 +16,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   gem 'sqlite3'
-  gem 'pg', '~> 0.20'
   gem 'rails_12factor'
   gem 'byebug'
   gem 'web-console', '~> 2.0'
